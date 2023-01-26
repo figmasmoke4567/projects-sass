@@ -1,0 +1,73 @@
+@media (max-width: 1440px) {
+  .container {
+    width: 90%;
+  }
+}
+@media (max-width: 1024px) {
+  .hamburger-menu {
+    display: block;
+  }
+  #header .header--title {
+    display: none;
+  }
+  #header .header #nav {
+    display: block;
+  }
+  #hero .hero {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #hero .hero--text {
+    padding-bottom: 60px;
+  }
+  #about .about {
+    flex-direction: column;
+  }
+  #about .about--title {
+    padding-top: 50px;
+  }
+  #service .service--group {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #service .service--group__block {
+    margin: 50px;
+  }
+}
+@media (max-width: 576px) {
+  #contact .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  #contact .contact--logo {
+    padding-bottom: 50px;
+  }
+  #contact .contact--phone {
+    margin-left: -45px;
+  }
+}
+@media (max-width: 400px) {
+  #about .about--img {
+    width: 270px;
+  }
+}
+@media (max-width: 320px) {
+  #header .header--icon {
+    display: none;
+  }
+  #hero .hero--text__h2 {
+    font-size: 35px;
+  }
+  #contact .contact--phone {
+    margin-left: 0;
+  }
+  #footer .footer--h1 {
+    font-size: 13px;
+  }
+  .header--icon-two {
+    display: block;
+  }
+}
+
+/*# sourceMappingURL=media.css.map */
